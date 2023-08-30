@@ -18,30 +18,34 @@ Imagine you're designing a Library Management System for a small local library. 
 
 Identify and document the entities, attributes, and relationships using Chen notation.
 
-<center>
-:::: {.columns}
+```{dot}
+//| echo: false
+graph ER {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+	layout=neato
+	node [shape=box]; course; discipline; student;
+	node [shape=ellipse]; {node [label="name"] name0; name1; name2;}
+		code; grade; number;
+	node [shape=diamond,style=filled,color=lightgrey]; "Offers"; "Enrolls"; "majors";
 
-::: {.column}
-```{mermaid}
-erDiagram
-    Student ||--o{ Enrollment : "Enrolls In"
-    Enrollment }o--|| Course : "Belongs To"
-    Course ||--o{ Enrollment : "Has"
+	name0 -- course;
+	code -- course;
+	course -- "Offers" [label="n",len=1.00];
+	"Offers" -- discipline [label="1",len=1.00];
+	discipline -- name1;
+	discipline -- "majors" [label="1",len=1.00];
+	"majors" -- student [label="n",len=1.00];
+	student -- grade;
+	student -- name2;
+	student -- number;
+	student -- "Enrolls" [label="m",len=1.00];
+	"Enrolls" -- course [label="n",len=1.00];
+
+	fontsize=20;
+}
 ```
-:::
-::: {.column}
-
-```{mermaid}
-erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
-```
-:::
-
-<center>*Example ER diagrams*</center>
-::::
-</center>
 
 ## Design Task 2
 
