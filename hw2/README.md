@@ -1,6 +1,6 @@
 # Welcome to Homework 2
-(your name goes here!)
-2023-08-29
+Cameron Lohman
+2023-08-30
 
 This is my solution to homework 2. I’m using Quarto render this document
 from a QMD file to a regular MD file for display on GITHUB.
@@ -20,7 +20,31 @@ they don’t have to.
 Identify and document the entities, attributes, and relationships using
 Chen notation.
 
-*(remove this block and add your your solution here!)*
+<center>
+
+<div class="columns">
+
+<div class="column">
+
+<img src="README_files\figure-commonmark\mermaid-figure-1.png"
+style="width:1.66in;height:4.84in" />
+
+</div>
+
+<div class="column">
+
+<img src="README_files\figure-commonmark\mermaid-figure-2.png"
+style="width:3.85in;height:4.84in" />
+
+</div>
+
+<center>
+*Example ER diagrams*
+</center>
+
+</div>
+
+</center>
 
 ## Design Task 2
 
