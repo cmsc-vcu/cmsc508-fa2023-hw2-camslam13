@@ -20,31 +20,16 @@ they don’t have to.
 Identify and document the entities, attributes, and relationships using
 Chen notation.
 
-<center>
+<div>
 
-<div class="columns">
+<div>
 
-<div class="column">
-
-<img src="README_files\figure-commonmark\mermaid-figure-1.png"
-style="width:1.66in;height:4.84in" />
+<img src="README_files\figure-commonmark\dot-figure-1.png"
+style="width:7in;height:5in" />
 
 </div>
 
-<div class="column">
-
-<img src="README_files\figure-commonmark\mermaid-figure-2.png"
-style="width:3.85in;height:4.84in" />
-
 </div>
-
-<center>
-*Example ER diagrams*
-</center>
-
-</div>
-
-</center>
 
 ## Design Task 2
 
