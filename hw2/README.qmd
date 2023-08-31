@@ -19,7 +19,8 @@ Imagine you're designing a Library Management System for a small local library. 
 Identify and document the entities, attributes, and relationships using Chen notation.
 
 ```{mermaid}
-//| echo: false
+%%| echo: true
+%%| eval: false
 graph ER {
     layout=neato;
   scale=1.1;
@@ -43,7 +44,8 @@ graph ER {
 Identify and document the entities, attributes, and relationships using Crow’s Foot notation.
 
 ```{mermaid}
-//| echo: false
+%%| echo: true
+%%| eval: false
 erDiagram
     ORDER }o--|| CUSTOMER : places
     ORDER }o--|| SALES_PERSON : places
