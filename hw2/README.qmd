@@ -30,12 +30,12 @@ graph ER {
     library_member -- checks_out [label="1",len=1.00]
     checks_out -- book [label="n",len=1.00]
     
-    library_member -- ID
-    library_member -- name
-    library_member -- contact_info
     book -- year
     book -- title
     book -- ISBN
+    library_member -- ID
+    library_member -- name
+    library_member -- contact_info
 }
 ```
 
