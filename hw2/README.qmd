@@ -28,7 +28,7 @@ graph ER {
     node [shape=diamond,style=filled,color=lightgrey]; has
     
     library_member -- has [label="1",len=1.00]
-    has -- room [label="n",len=1.00]
+    has -- book [label="n",len=1.00]
     
     library_member -- id
     library_member -- name
