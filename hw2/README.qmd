@@ -22,10 +22,10 @@ Identify and document the entities, attributes, and relationships using Chen not
 //| echo: false
 graph ER {
     layout=neato;
-  scale=1.1;
+  scale=1.3;
     node [shape=box]; book; library_member;
     node [shape=ellipse]; name, contact_info, id, year, title, isbn
-    node [shape=diamond,style=filled,color=lightgrey]; has
+    node [shape=diamond,style=filled,color=lightgrey]; checks_out
     
     library_member -- has [label="1",len=1.00]
     has -- book [label="n",len=1.00]
