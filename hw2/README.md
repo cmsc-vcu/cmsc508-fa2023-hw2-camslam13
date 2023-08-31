@@ -20,13 +20,21 @@ they don’t have to.
 Identify and document the entities, attributes, and relationships using
 Chen notation.
 
-<img src="README_files\figure-commonmark\mermaid-figure-1.png"
-style="width:5.33in;height:5.33in" />
+<div>
+
+<div>
+
+<img src="README_files\figure-commonmark\dot-figure-1.png"
+style="width:7in;height:5in" />
+
+</div>
+
+</div>
 
 ## Design Task 2
 
 Identify and document the entities, attributes, and relationships using
 Crow’s Foot notation.
 
-<img src="README_files\figure-commonmark\mermaid-figure-2.png"
+<img src="README_files\figure-commonmark\mermaid-figure-1.png"
 style="width:5.72in;height:3.02in" />
