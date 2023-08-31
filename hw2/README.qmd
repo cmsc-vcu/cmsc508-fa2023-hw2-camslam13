@@ -47,7 +47,7 @@ Identify and document the entities, attributes, and relationships using Crow’s
 %%| echo: true
 %%| eval: false
 erDiagram
-library_member ||--|{ book : contains
+library_member ||--|{ book : checks_out
 
 library_member{
   string contact_info
