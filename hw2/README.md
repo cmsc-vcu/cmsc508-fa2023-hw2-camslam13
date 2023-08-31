@@ -37,4 +37,4 @@ Identify and document the entities, attributes, and relationships using
 Crow’s Foot notation.
 
 <img src="README_files\figure-commonmark\mermaid-figure-1.png"
-style="width:5.72in;height:3.02in" />
+style="width:1.58in;height:3.1in" />
