@@ -27,8 +27,8 @@ graph ER {
     node [shape=ellipse]; name, contact_info, id, year, title, isbn
     node [shape=diamond,style=filled,color=lightgrey]; checks_out
     
-    library_member -- has [label="1",len=1.00]
-    has -- book [label="n",len=1.00]
+    library_member -- checks_out [label="1",len=1.00]
+    checks_out -- book [label="n",len=1.00]
     
     library_member -- id
     library_member -- name
